@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaveCell.RuleEngine.Core", "WaveCell.RuleEngine.Core\WaveCell.RuleEngine.Core.csproj", "{A9F135C2-14A4-4556-A737-2E435A2E2DC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaveCell.RuleEngine.Example", "WaveCell.RuleEngine.Example\WaveCell.RuleEngine.Example.csproj", "{2DC19962-CACF-41EC-B828-E4FA24A41602}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{2460F752-F0E1-4206-955E-17D5DFD634AB}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\doc\8x8 .NET Engineer - Test assignment - RulesEngine.pdf = ..\..\doc\8x8 .NET Engineer - Test assignment - RulesEngine.pdf
+		..\..\doc\SampleData.csv = ..\..\doc\SampleData.csv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{79082BB6-03E0-42EF-B117-5AE7105BDE98}"
+	ProjectSection(SolutionItems) = preProject
+		..\Directory.Build.props = ..\Directory.Build.props
+		..\..\README.md = ..\..\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveCell.RuleEngine.Core.Tests", "WaveCell.RuleEngine.Tests\WaveCell.RuleEngine.Core.Tests.csproj", "{F779C37F-39E2-4751-B510-DA722282F5C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaveCell.RuleEngine.Strategy", "WaveCell.RuleEngine.Strategy\WaveCell.RuleEngine.Strategy.csproj", "{4B8574DC-C58D-4816-99FE-E20BCD3DA015}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaveCell.RuleEngine.Strategy.Tests", "WaveCell.RuleEngine.Strategy.Tests\WaveCell.RuleEngine.Strategy.Tests.csproj", "{77B574B2-353A-4EB5-B857-E5D4965948E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F9686460-D858-47A9-9760-25DB7ADE22A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{A9332741-C45F-44F5-98D3-C9A7481A1C88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{6959AA4E-8283-4071-9E62-0429EC044F28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveCell.RuleEngine.Core.Benchmark", "WaveCell.RuleEngine.Core.Benchmark\WaveCell.RuleEngine.Core.Benchmark.csproj", "{ACDDDE69-753E-41EA-93EF-6939DD7AA5DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9F135C2-14A4-4556-A737-2E435A2E2DC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F135C2-14A4-4556-A737-2E435A2E2DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F135C2-14A4-4556-A737-2E435A2E2DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F135C2-14A4-4556-A737-2E435A2E2DC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC19962-CACF-41EC-B828-E4FA24A41602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC19962-CACF-41EC-B828-E4FA24A41602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC19962-CACF-41EC-B828-E4FA24A41602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC19962-CACF-41EC-B828-E4FA24A41602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F779C37F-39E2-4751-B510-DA722282F5C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F779C37F-39E2-4751-B510-DA722282F5C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F779C37F-39E2-4751-B510-DA722282F5C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F779C37F-39E2-4751-B510-DA722282F5C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B8574DC-C58D-4816-99FE-E20BCD3DA015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B8574DC-C58D-4816-99FE-E20BCD3DA015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B8574DC-C58D-4816-99FE-E20BCD3DA015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B8574DC-C58D-4816-99FE-E20BCD3DA015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B574B2-353A-4EB5-B857-E5D4965948E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B574B2-353A-4EB5-B857-E5D4965948E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B574B2-353A-4EB5-B857-E5D4965948E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B574B2-353A-4EB5-B857-E5D4965948E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACDDDE69-753E-41EA-93EF-6939DD7AA5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDDDE69-753E-41EA-93EF-6939DD7AA5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDDDE69-753E-41EA-93EF-6939DD7AA5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDDDE69-753E-41EA-93EF-6939DD7AA5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9F135C2-14A4-4556-A737-2E435A2E2DC0} = {A9332741-C45F-44F5-98D3-C9A7481A1C88}
+		{2DC19962-CACF-41EC-B828-E4FA24A41602} = {6959AA4E-8283-4071-9E62-0429EC044F28}
+		{F779C37F-39E2-4751-B510-DA722282F5C4} = {F9686460-D858-47A9-9760-25DB7ADE22A1}
+		{4B8574DC-C58D-4816-99FE-E20BCD3DA015} = {A9332741-C45F-44F5-98D3-C9A7481A1C88}
+		{77B574B2-353A-4EB5-B857-E5D4965948E1} = {F9686460-D858-47A9-9760-25DB7ADE22A1}
+		{ACDDDE69-753E-41EA-93EF-6939DD7AA5DF} = {F9686460-D858-47A9-9760-25DB7ADE22A1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {714C1489-D4A8-4765-9CAA-EC850A588262}
+	EndGlobalSection
+EndGlobal
