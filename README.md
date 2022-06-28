@@ -44,7 +44,7 @@ src folder contains a .NET solution with 6 projects:
      * Memory complexity
          * `O(K)`. There're options to get rid of allocations but that would hurt maintainability.
 * Benchmark results:
-    * Rule engine can process at least 50k qps on a single while having 2400 rules with 16+ matches for every filter
+    * Rule engine can process at least 500k qps on a single while having 2400 rules with 16+ matches for every filter
 
 ### Future improvements
 
